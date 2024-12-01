@@ -1,0 +1,53 @@
+
+.container{
+    max-width: 350px;
+    border-radius: 50px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 5px 5px 10px rgba(153,153,153,1); 
+    border: solid black 1px;
+    background-color: rgb(245, 168, 219);
+  }
+  .button.round{
+    border-bottom-right-radius: 50px;
+  
+  } 
+  .button.round1{
+    border-bottom-left-radius: 50px;
+  
+  }  
+
+  #display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+   
+    
+  }
+  
+  .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  
+  }
+  
+  .button {
+    border: 0.5px solid #999;
+    line-height: 70px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  #equal {
+    background-color: rgb(85,85,255);
+    color: white;
+  }
+  
+  .button:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
